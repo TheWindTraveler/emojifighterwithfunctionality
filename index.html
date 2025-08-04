@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Emoji Fighters Gif</title>
+</head>
+<body>
+    <!-- Main section -->
+    <main class="main-section-container">
+        <div class="main-section-content">
+            <button id="toggle-theme" class="theme-toggle">🌙</button>
+            <h1>Emoji<br/>Fighters</h1>
+            <div id="stage"></div>
+            <button id="pick-fighters">Pick Fighters!</button>
+        </div>
+    </main>
+<!-- Popup section -->
+    <div id="winner-popup" class="winner-popup hidden">
+        <button id="close-popup" class="close-btn">✖</button>
+        <h2 id="winner-message"></h2>
+        <div id="winner-display"></div>
+    </div>
+
+    <!-- JavaScript -->
+     <script src="./index.js"></script>
+     <script src="./components/lightDarkMode.js"></script>
+     <script src="./components/closeBtn.js"></script>
+</body>
+</html>
