@@ -144,5 +144,8 @@ body, .main-section-container, .theme-toggle {
     border: none;
     font-size: 20px;
     cursor: pointer;
-    color: #444;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: var(--secondary-color);
 }
